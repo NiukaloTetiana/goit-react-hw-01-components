@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
+  cursor: pointer;
   margin: 50px auto 32px;
   padding: 16px;
 
-  max-width: 90%;
-  width: 90%;
+  width: 700px;
   box-shadow: ${({ theme }) => theme.shadows.box};
   border-radius: ${({ theme }) => theme.spacing(4)};
 `;
@@ -20,6 +20,7 @@ export const Tr = styled.tr`
   &:hover {
     background-color: ${({ theme }) => theme.colors.accent};
     transform: scale(1.1);
+    border-radius: ${({ theme }) => theme.spacing(4)};
   }
 `;
 
