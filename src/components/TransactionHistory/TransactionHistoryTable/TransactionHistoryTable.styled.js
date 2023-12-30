@@ -20,7 +20,7 @@ export const Tr = styled.tr`
   &:hover {
     background-color: ${({ theme }) => theme.colors.accent};
     transform: scale(1.1);
-    border-radius: ${({ theme }) => theme.spacing(4)};
+    box-shadow: ${({ theme }) => theme.shadows.regular};
   }
 `;
 
