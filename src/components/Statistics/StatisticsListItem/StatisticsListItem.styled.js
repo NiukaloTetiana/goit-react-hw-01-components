@@ -1,4 +1,4 @@
-import { getRandomHexColor } from 'components/utils/GetRandomHexColor';
+import { getRandomHexColor } from '../../../utils/GetRandomHexColor';
 import styled from 'styled-components';
 
 export const Item = styled.li`

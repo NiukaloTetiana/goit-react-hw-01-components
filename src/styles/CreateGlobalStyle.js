@@ -1,9 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-body {  
-    background-color: ${({ theme }) => theme.colors.grine};
-}
 
   h1,
   h2,
@@ -24,11 +21,7 @@ body {
   }
 
   button {
-    padding: 0;
     border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
     cursor: pointer;
   }
 
